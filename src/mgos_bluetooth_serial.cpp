@@ -68,10 +68,5 @@ extern "C"
         if (!bt) return false;
         return bt->hasClient();
     }
-    
-    bool mgos_serialBT_init()
-    {
-      return true;
-    }
 
 }
