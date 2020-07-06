@@ -52,8 +52,8 @@ build_vars:
     CONFIG_BT_RESERVE_DRAM=0xdb5c
 
 libs:
-  - origin: https://github.com/mongoose-os-libs/boards
-  - origin: https://github.com/mongoose-os-libs/ca-bundle
+#  - origin: https://github.com/mongoose-os-libs/boards
+#  - origin: https://github.com/mongoose-os-libs/ca-bundle
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
 
