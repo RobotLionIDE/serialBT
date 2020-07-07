@@ -327,7 +327,7 @@ extern "C"
             return false;
         }
 
-        cs_log_set_level(LL_DEBUG);
+        //cs_log_set_level(LL_DEBUG);
 
         // add channel to global rpc channels list
         mg_rpc_add_channel(mgos_rpc_get_global(), mg_mk_str("sbt"), ch);
